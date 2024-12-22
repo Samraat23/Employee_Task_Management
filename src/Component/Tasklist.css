@@ -1,0 +1,84 @@
+
+/* table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: #96D4D4;
+  } */
+
+  table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+  
+  }
+  th, td{
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+  }
+  #top{
+    height: 100px;
+    background-color: rgb(219, 110, 70);
+  }
+  .edit_delete{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+  }
+  .edit_delete button{
+    padding: 5px 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    border-radius: 4px;
+  }
+
+  #header{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+  }
+  .create_task{
+    width: 400px;
+    font-size: 30px;
+    height: 50px;
+    border: 1px solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 10px 0px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+
+  }
+  .addTotask{
+    text-decoration: none;
+    color:white;
+
+  }
+  .pagination{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    gap: 20px;
+    list-style-type: none;
+    margin-top: 20px;
+    
+  }
+ 
+  .page_link{
+    text-decoration: none;
+    font-size: 25px;
+    border: 1px solid;
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+  }

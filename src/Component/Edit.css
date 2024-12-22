@@ -1,0 +1,107 @@
+h1{
+    font-size: 50px;
+}
+.create-form{
+    width: 68%;
+    height: 420px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    background-color: rgb(159, 178, 196);
+}
+.title_alinment{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+
+}
+.Task_title{
+    width: 100%;
+    position: absolute;
+    top: 50px;
+}
+#title{
+    font-size: 30px;
+}
+.input_title{
+    width: 500px;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-left: 10px;
+    outline: none;
+    border-radius: 7px;
+    border-color: black;
+    
+}
+.status_member{
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+label{
+    font-size: 30px;
+}
+.status{
+    width: 200px;
+    height: 35px;
+    border-radius: 7px;
+    outline: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+.due_date{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hour_priority{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#submit{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+.submit_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  
+    
+}
+.backthome{
+    display: flex;
+    justify-content: center;
+}
+.backt{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(25, 28, 197);
+    color: white;
+    border: 1px solid;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#Edit_task{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 40px;
+}
